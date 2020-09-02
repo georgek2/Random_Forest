@@ -5,13 +5,13 @@
  > Model_One: Label Encoding columns with low cardinality
  
   + Label Encoder
-  + Eliminating columns with missing values..
+  + Eliminating columns with missing values.
   
  
  > Model_Two: One Hot Encoding
  
   + OneHotEncoder in action. Dropping columns with missing entries..
-  + Encoding only the categorical cols with low cardinality
+  + Encoding only the categorical cols with low cardinality.
   
   
   > Model Three: Pipelines
@@ -20,3 +20,11 @@
   + Using the preprocessor with the numerical and categorical transformers simpifies the code.
   + The pipeline bundles preprocessing and modelling steps.
   + Fit the pipeline and make predictions.
+  
+  > Model Four: Cross_Validation
+  
+  + Splitting the data into folds (Equal Parts).
+  + Using each fold as the validation set.
+  + Scoring using MAE for each validation set.
+  + All folds are used.
+  
